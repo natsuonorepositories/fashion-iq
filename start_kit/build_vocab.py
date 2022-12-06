@@ -2,6 +2,7 @@ import nltk
 import pickle
 import argparse
 from collections import Counter
+nltk.download('punkt')
 
 CAP_FILE = 'data/captions/cap.{}.train.json'
 DICT_OUTPUT_FILE = 'data/captions/dict.{}.json'
